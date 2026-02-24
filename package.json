@@ -1,0 +1,8 @@
+{
+  "name": "daeyoung-dyno-bots",
+  "version": "0.2.0",
+  "private": true,
+  "dependencies": {
+    "firebase-admin": "11.11.0"
+  }
+}
