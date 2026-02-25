@@ -43,7 +43,7 @@ async function askClaude(topic, userText) {
     'api.anthropic.com',
     '/v1/messages',
     {
-      model: 'claude-3-5-haiku-20241022',
+      model: 'claude-haiku-4-5',
       max_tokens: 1024,
       system: SYSTEM_PROMPTS[topic] || '당신은 친절한 AI 어시스턴트입니다. 한국어로 대화합니다.',
       messages: [{ role: 'user', content: userText }]
